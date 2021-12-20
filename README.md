@@ -4,7 +4,7 @@ GitHub Action for publishing artifacts.
 To use, add `.github/workflows/artifact-pub.yml` to a repo with this content:
 ```yaml
 name: Artifact Publisher
-uses: Tyler887/artifact-publisher@1
+uses: Tyler887/artifact-publisher@v1
 
 runs-on: ubuntu-latest
 ```
