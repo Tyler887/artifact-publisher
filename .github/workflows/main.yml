@@ -2,8 +2,8 @@
 
   runs-on: ubuntu-latest
 
-  runs-on:
-    [event_dispatch]
+  on:
+   [event_dispatch]
 
   steps:
 
