@@ -1,10 +1,9 @@
-- name: Publish artifacts
+- name: Test
 
   runs-on: ubuntu-latest
 
-on;
-
- [release]
+on:
+  [event_dispatch]
 
 steps:
 
