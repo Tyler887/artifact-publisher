@@ -1,0 +1,13 @@
+- name: Publish artifacts
+
+  runs-on: ubuntu-latest
+
+on:
+
+ [release]
+
+steps:
+
+  - name: Cache the artifact
+
+    uses: actions/cache@v2.1.7
