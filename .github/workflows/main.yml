@@ -2,10 +2,10 @@
 
   runs-on: ubuntu-latest
 
-on:
-  [event_dispatch]
+  runs-on:
+    [event_dispatch]
 
-steps:
+  steps:
 
   - name: Cache the artifact
 
