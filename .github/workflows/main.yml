@@ -3,7 +3,7 @@
   runs-on: ubuntu-latest
 
   on:
-   [event_dispatch]
+   event_dispatch
 
   steps:
 
