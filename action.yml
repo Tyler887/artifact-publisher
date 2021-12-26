@@ -3,6 +3,8 @@
 
 on:
  [release]
-steps:
-  - name: Cache the artifact
+jobs:
+  - name: Cache old artifact
     uses: actions/cache@v2.1.7
+  - name: Upload to GH Actions
+    uses: actions/upload-artifact@v2.0
