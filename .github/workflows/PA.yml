@@ -4,7 +4,10 @@
 
 on:
 
- release
+ release:
+   tag: *
+
+   
 
 jobs:
 
