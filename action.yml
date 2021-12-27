@@ -1,4 +1,4 @@
-# All actions used in this action run on the latest version.
+# All actions used in this action run on v2.(latest) and are official github actions.
 - name: Publish artifacts
   runs-on: ubuntu-latest
 
@@ -8,9 +8,9 @@ jobs:
   publish:
     steps:
      - name: Checkout
-       uses: actions/checkout@latest
+       uses: actions/checkout@v2
   
      - name: Cache old artifact
-       uses: actions/cache@latest
+       uses: actions/cache@v2
      - name: Upload to GH Actions
-       uses: actions/upload-artifact@latest
+       uses: actions/upload-artifact@v2
