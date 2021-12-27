@@ -1,10 +1,14 @@
+# All actions used in this action run on the latest version.
 - name: Publish artifacts
   runs-on: ubuntu-latest
 
 on:
  [release]
 jobs:
+  - name: Checkout
+    uses: actions/checkout@latest
+  
   - name: Cache old artifact
-    uses: actions/cache@v2.1.7
+    uses: actions/cache@latest
   - name: Upload to GH Actions
-    uses: actions/upload-artifact@v2.0
+    uses: actions/upload-artifact@latest
