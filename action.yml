@@ -3,7 +3,9 @@
   runs-on: ubuntu-latest
 
 on:
- [release]
+ release
+   type:
+    [published]
 jobs:
   publish:
     steps:
